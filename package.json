@@ -1,0 +1,22 @@
+{
+  "name": "registration-form",
+  "version": "1.0.0",
+  "description": "A simple registration form application using Tailwind CSS and Express.js",
+  "scripts": {
+    "start": "node server.js",
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "build-watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [
+    "tailwind",
+    "css",
+    "registration-form",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}
